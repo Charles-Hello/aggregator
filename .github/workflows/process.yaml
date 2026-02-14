@@ -4,6 +4,11 @@ on:
     - cron: "05 03 * * *"
     - cron: "05 11 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/**'
 
 env:
   # time zone
@@ -52,6 +57,14 @@ jobs:
 
       - name: Process
         run: python -u subscribe/process.py --overwrite
+
+      - name: Commit and Push to Repository
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update processed proxy data [skip ci]"
+          git push
 
       - name: Timestamp
         run: date
