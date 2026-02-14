@@ -5,151 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31114, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾代理01, server: hkt.karyl.cc, port: 40604, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34423, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdntwa.xiaomispeed.com, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34421, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US-美国, server: 174.136.205.68, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34422, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: 120.241.40.34, port: 28888, type: ss, cipher: chacha20-ietf-poly1305, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, udp: true}
-  - {name: 🇯🇵 JP-日本, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 32221, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 33311, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34422, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31114, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdntwa.xiaomispeed.com, udp: true}
   - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡代理01, server: hkt.karyl.cc, port: 40504, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇰🇷 KR-IDC-节点2, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-日本, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港代理01, server: hkt.karyl.cc, port: 40404, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 33311, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP-IDC-NODE1, server: 146.56.132.194, port: 30003, type: vmess, uuid: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34423, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾代理01, server: hkt.karyl.cc, port: 40604, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇰🇷 KR-IDC-节点1, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港代理01, server: hkt.karyl.cc, port: 40404, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: 120.241.40.34, port: 28888, type: ss, cipher: chacha20-ietf-poly1305, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 34421, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 7fac717f-6b58-4326-a514-67fccd8c7f80, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: green2.cdntencentmusic.com, port: 32221, type: trojan, password: e5d1a0c7-0eb1-44ae-8a5a-335302236f9a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,167 +168,167 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇹🇼 台湾代理01
       - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港代理01
       - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -344,38 +344,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇰🇷 KR-IDC-节点1
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇺🇸 US-美国
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - 🇯🇵 JP-日本
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PC端如无法使用请点-TUN-视频体验-1B
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
       - 🇸🇬 新加坡代理01
-      - 🇰🇷 KR-IDC-节点2
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 JP-日本
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港代理01
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇯🇵 JP-IDC-NODE1
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港代理01
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇰🇷 KR-IDC-节点2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
