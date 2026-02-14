@@ -60,11 +60,15 @@ jobs:
 
       - name: Commit and Push to Repository
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update processed proxy data [skip ci]"
-          git push
+          if [ -d "data" ] && [ -n "$(ls -A data 2>/dev/null)" ]; then
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add data/
+            git diff --quiet && git diff --staged --quiet || git commit -m "chore: update processed proxy data [skip ci]"
+            git push
+          else
+            echo "data/ directory is empty or does not exist, skipping commit"
+          fi
 
       - name: Timestamp
         run: date
