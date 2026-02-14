@@ -1,5 +1,5 @@
-https://xbd.iftballs.com/api/v1/client/subscribe?token=bf1fadc3a4d715c7d711b3a3fc0b4a65
-https://admin.tianmiao.icu/api/v1/client/subscribe?token=517784db641716f994fc9708c6ca50ab
-http://tinnyrick8888.com/api/v1/client/subscribe?token=4b244e53891a12776c1f3ed0c8dd1cd9
 https://wocao.su7.me/s/3cd766cf2c7543a29bf42ae34a56d8a2
+http://tinnyrick8888.com/api/v1/client/subscribe?token=4b244e53891a12776c1f3ed0c8dd1cd9
+https://admin.tianmiao.icu/api/v1/client/subscribe?token=517784db641716f994fc9708c6ca50ab
 https://xstar8888.com/api/v1/client/subscribe?token=9233a1d35a26fbbb808e367d13e11da4
+https://xbd.iftballs.com/api/v1/client/subscribe?token=bf1fadc3a4d715c7d711b3a3fc0b4a65
