@@ -1,6 +1,6 @@
-https://admin.tianmiao.icu/api/v1/client/subscribe?token=1acc3c9688c2eae18057846e984572e2
-https://xbd.iftballs.com/api/v1/client/subscribe?token=98121b9b317ed980e8dd40d20eb8f664
 https://xstar8888.com/api/v1/client/subscribe?token=402a0b9d7504f473c22b19cfcddf48d8
-https://wocao.su7.me/s/3cd766cf2c7543a29bf42ae34a56d8a2
-https://admin.tianmiao.icu/api/v1/client/subscribe?token=517784db641716f994fc9708c6ca50ab
+https://xbd.iftballs.com/api/v1/client/subscribe?token=98121b9b317ed980e8dd40d20eb8f664
 https://xbd.iftballs.com/api/v1/client/subscribe?token=bf1fadc3a4d715c7d711b3a3fc0b4a65
+https://admin.tianmiao.icu/api/v1/client/subscribe?token=1acc3c9688c2eae18057846e984572e2
+https://admin.tianmiao.icu/api/v1/client/subscribe?token=517784db641716f994fc9708c6ca50ab
+https://wocao.su7.me/s/3cd766cf2c7543a29bf42ae34a56d8a2
