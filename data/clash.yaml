@@ -5,83 +5,83 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇸🇬 新加坡代理01, server: hkt.karyl.cc, port: 40504, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
   - {name: 🇭🇰 香港代理01, server: hkt.karyl.cc, port: 40404, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇰🇷 KR-IDC-节点1-1B, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇯🇵 JP-日本-1C, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US-美国-1B, server: 174.136.205.68, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇺🇸 US-美国-1A, server: 174.136.205.68, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇯🇵 JP-日本-1A, server: 154.31.114.125, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-日本-1B, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡代理01, server: hkt.karyl.cc, port: 40504, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇯🇵 JP-IDC-NODE1-1A, server: 146.56.132.194, port: 30003, type: vmess, uuid: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇯🇵 JP-日本-1B, server: 154.31.114.125, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1B, server: 146.56.132.194, port: 30003, type: vmess, uuid: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1A, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1A, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇺🇸 US-美国-1C, server: 174.136.205.68, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1B, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
   - {name: 🇹🇼 台湾代理01, server: hkt.karyl.cc, port: 40604, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇰🇷 KR-IDC-节点2-1A, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
-  - {name: 🇺🇸 US-美国-1B, server: 174.136.205.68, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1A, server: 146.56.132.194, port: 30003, type: vmess, uuid: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1B, server: 146.56.132.194, port: 30003, type: vmess, uuid: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇺🇸 US-美国-1C, server: 174.136.205.68, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-日本-1C, server: 154.31.114.125, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1A, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1B, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1B, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +100,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -127,62 +127,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -198,21 +198,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡代理01
       - 🇭🇰 香港代理01
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1C
+      - 🇺🇸 US-美国-1B
       - 🇺🇸 US-美国-1A
       - 🇯🇵 JP-日本-1A
-      - 🇯🇵 JP-日本-1B
-      - 🇸🇬 新加坡代理01
-      - 🇹🇼 台湾代理01
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇺🇸 US-美国-1B
       - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇯🇵 JP-日本-1B
       - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1C
+      - 🇰🇷 KR-IDC-节点2-1A
       - 🇰🇷 KR-IDC-节点1-1A
+      - 🇺🇸 US-美国-1C
       - 🇰🇷 KR-IDC-节点2-1B
+      - 🇹🇼 台湾代理01
+      - 🇰🇷 KR-IDC-节点1-1B
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
