@@ -505,7 +505,7 @@ class IppureLibrary(IpLibrary):
         country = country_name_zh(country_code) or (data.get("country") or "未知")
         base = f"{flag} {country}{label}".strip()
         if include_asn_name and company_name:
-            score = str(data.get("fraudScore", 100)).zfill(3)
+            score = str(data.get("fraudScore")).zfill(3) if "fraudScore" in data else "NUL"
             return f"{base} [{company_name}::{score}]".strip()
 
         return base
@@ -913,7 +913,7 @@ class ProxyChecker:
                 # 实时输出结果
                 status_icon = "✓" if result.status == "success" else "✗"
                 if result.status == "success":
-                    print(f"{status_icon} {result.original[:60]}... | {result.response_time}s | IP: {result.ip}")
+                    print(f"{status_icon} {result.original[:60]}... | {result.response_time}s | Export IP: {result.ip}")
                     if write_queue:
                         line = self._format_yaml_line(result) if output_format == "clash" else result.proxy
                         await write_queue.put(line + "\n")
