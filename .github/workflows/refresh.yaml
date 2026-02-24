@@ -80,7 +80,7 @@ jobs:
             git add data/
             git diff --quiet && git diff --staged --quiet || (
               git commit -m "chore: update refreshed proxy data [skip ci]"
-              git pull --rebase --autostash origin main
+              git pull --no-rebase -X ours origin main
               git push
             )
           else
