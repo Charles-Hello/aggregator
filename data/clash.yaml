@@ -5,251 +5,251 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇰🇷 KR-IDC-节点1-1A, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e0faec2b-020a-4c42-8953-42366a406de9, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1A, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e0faec2b-020a-4c42-8953-42366a406de9, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1E, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1A, server: 146.56.132.194, port: 30003, type: vmess, uuid: e0faec2b-020a-4c42-8953-42366a406de9, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-日本-1G, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US-美国-1E, server: 174.136.205.68, port: 443, type: vless, uuid: fdcf5c67-88f8-4113-805a-2948c196b115, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1H, server: 146.56.132.194, port: 30003, type: vmess, uuid: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇯🇵 JP-日本-1A, server: 154.31.114.125, port: 443, type: vless, uuid: 877af64d-66be-4795-8723-b634555f03a4, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1B, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1E, server: 146.56.132.194, port: 30003, type: vmess, uuid: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇯🇵 JP-日本-1C, server: 154.31.114.125, port: 443, type: vless, uuid: 29b8f707-219c-44a1-bb78-99e80074cd6f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾代理01, server: hkt.karyl.cc, port: 40604, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇺🇸 US-美国-1A, server: 174.136.205.68, port: 443, type: vless, uuid: 877af64d-66be-4795-8723-b634555f03a4, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US-美国-1C, server: 174.136.205.68, port: 443, type: vless, uuid: 29b8f707-219c-44a1-bb78-99e80074cd6f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-日本-1D, server: 154.31.114.125, port: 443, type: vless, uuid: 4790520a-a66a-4e53-8180-7554358025d0, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-日本-1F, server: 154.31.114.125, port: 443, type: vless, uuid: abde26c9-03eb-46a3-a577-ea545f73e341, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1G, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1D, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, udp: true}
-  - {name: 🇸🇬 新加坡代理01, server: hkt.karyl.cc, port: 40504, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇺🇸 US-美国-1I, server: 174.136.205.68, port: 443, type: vless, uuid: 40bacf5c-d655-4a38-88fb-0f4a6ab1f40e, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 香港代理01, server: hkt.karyl.cc, port: 40404, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
-  - {name: 🇯🇵 JP-日本-1I, server: 154.31.114.125, port: 443, type: vless, uuid: 40bacf5c-d655-4a38-88fb-0f4a6ab1f40e, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1E, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1C, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
-  - {name: 🇯🇵 JP-日本-1B, server: 154.31.114.125, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1B, server: 146.56.132.194, port: 30003, type: vmess, uuid: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1C, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
-  - {name: 🇺🇸 US-美国-1G, server: 174.136.205.68, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US-美国-1H, server: 174.136.205.68, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdntwa.xiaomispeed.com, udp: true}
-  - {name: 🇯🇵 JP-日本-1E, server: 154.31.114.125, port: 443, type: vless, uuid: fdcf5c67-88f8-4113-805a-2948c196b115, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1B, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-美国-1B, server: 174.136.205.68, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1D, server: 146.56.132.194, port: 30003, type: vmess, uuid: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1D, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1F, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
-  - {name: 🇺🇸 US-美国-1F, server: 174.136.205.68, port: 443, type: vless, uuid: abde26c9-03eb-46a3-a577-ea545f73e341, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点1-1H, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1G, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1G, server: 146.56.132.194, port: 30003, type: vmess, uuid: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP-日本-1H, server: 154.31.114.125, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US-美国-1D, server: 174.136.205.68, port: 443, type: vless, uuid: 4790520a-a66a-4e53-8180-7554358025d0, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 JP-IDC-NODE1-1C, server: 146.56.132.194, port: 30003, type: vmess, uuid: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1F, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇯🇵 JP-日本-1E, server: 154.31.114.125, port: 443, type: vless, uuid: 4790520a-a66a-4e53-8180-7554358025d0, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1E, server: 146.56.132.194, port: 30003, type: vmess, uuid: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇯🇵 JP-日本-1C, server: 154.31.114.125, port: 443, type: vless, uuid: abde26c9-03eb-46a3-a577-ea545f73e341, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇯🇵 JP-IDC-NODE1-1F, server: 146.56.132.194, port: 30003, type: vmess, uuid: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
-  - {name: 🇰🇷 KR-IDC-节点2-1H, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1A, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, udp: true}
+  - {name: 🇯🇵 JP-日本-1I, server: 154.31.114.125, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1B, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdntwa.xiaomispeed.com, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1C, server: 146.56.132.194, port: 30003, type: vmess, uuid: e0faec2b-020a-4c42-8953-42366a406de9, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇺🇸 US-美国-1E, server: 174.136.205.68, port: 443, type: vless, uuid: 4790520a-a66a-4e53-8180-7554358025d0, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US-美国-1G, server: 174.136.205.68, port: 443, type: vless, uuid: 29b8f707-219c-44a1-bb78-99e80074cd6f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1G, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1D, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, udp: true}
+  - {name: 🇺🇸 US-美国-1D, server: 174.136.205.68, port: 443, type: vless, uuid: 40bacf5c-d655-4a38-88fb-0f4a6ab1f40e, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1F, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1H, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1B, server: 146.56.132.194, port: 30003, type: vmess, uuid: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇸🇬 新加坡代理01, server: hkt.karyl.cc, port: 40504, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇰🇷 KR-IDC-节点1-1E, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-日本-1G, server: 154.31.114.125, port: 443, type: vless, uuid: 29b8f707-219c-44a1-bb78-99e80074cd6f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-美国-1F, server: 174.136.205.68, port: 443, type: vless, uuid: 877af64d-66be-4795-8723-b634555f03a4, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1A, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1B, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 19a9fd09-4d27-4a93-9bd3-aa2a970e0dda, udp: true}
+  - {name: 🇺🇸 US-美国-1C, server: 174.136.205.68, port: 443, type: vless, uuid: abde26c9-03eb-46a3-a577-ea545f73e341, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-日本-1B, server: 154.31.114.125, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1D, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1F, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 6c654745-437c-4ffb-a1da-b18be4cbe5e1, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1C, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e0faec2b-020a-4c42-8953-42366a406de9, udp: true}
+  - {name: 🇺🇸 US-美国-1A, server: 174.136.205.68, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-日本-1F, server: 154.31.114.125, port: 443, type: vless, uuid: 877af64d-66be-4795-8723-b634555f03a4, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1H, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1G, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1G, server: 146.56.132.194, port: 30003, type: vmess, uuid: e5ca23f1-b8fa-44f2-a2d7-e1388d15707f, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇺🇸 US-美国-1B, server: 174.136.205.68, port: 443, type: vless, uuid: de2c2171-c7a7-4e8b-940a-a6d907154b87, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 US-美国-1H, server: 174.136.205.68, port: 443, type: vless, uuid: fdcf5c67-88f8-4113-805a-2948c196b115, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点2-1E, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: fad5a064-5e2a-4f64-b8ea-a41eba24a56f, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP-IDC-NODE1-1A, server: 146.56.132.194, port: 30003, type: vmess, uuid: 1ff62b6d-1385-4501-a2a9-a455b7bacb18, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇭🇰 香港代理01, server: hkt.karyl.cc, port: 40404, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇯🇵 JP-IDC-NODE1-1D, server: 146.56.132.194, port: 30003, type: vmess, uuid: 41bc51b9-88c3-40ab-ab02-b5bd6fb134d3, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
+  - {name: 🇯🇵 JP-日本-1A, server: 154.31.114.125, port: 443, type: vless, uuid: 833b75e3-eaf0-4ee6-888e-b9e87f96ec81, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-日本-1H, server: 154.31.114.125, port: 443, type: vless, uuid: fdcf5c67-88f8-4113-805a-2948c196b115, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 0b31daef-1eb3-4b59-b6ce-85fc431d0ffa, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-美国-1I, server: 174.136.205.68, port: 443, type: vless, uuid: 39c4364c-6b00-4d4d-b029-dea9d5f909cb, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 JP-日本-1D, server: 154.31.114.125, port: 443, type: vless, uuid: 40bacf5c-d655-4a38-88fb-0f4a6ab1f40e, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 KR-IDC-节点1-1C, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: e0faec2b-020a-4c42-8953-42366a406de9, udp: true}
+  - {name: 🇹🇼 台湾代理01, server: hkt.karyl.cc, port: 40604, type: socks5, username: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9, password: 07f8b86b-3c46-4a70-b39b-8c5543ed17d9}
+  - {name: 🇯🇵 JP-IDC-NODE1-1H, server: 146.56.132.194, port: 30003, type: vmess, uuid: e87e1ee2-33dd-4e2b-9710-d31ea620e8a7, alterId: 0, cipher: auto, tls: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,262 +268,262 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
       - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇹🇼 台湾代理01
-      - 🇭🇰 香港代理01
       - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港代理01
+      - 🇹🇼 台湾代理01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -539,63 +539,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 KR-IDC-节点1-1A
-      - 🇰🇷 KR-IDC-节点2-1A
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1E
-      - 🇯🇵 JP-IDC-NODE1-1A
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1G
-      - 🇺🇸 US-美国-1E
-      - 🇯🇵 JP-IDC-NODE1-1H
-      - 🇯🇵 JP-日本-1A
-      - 🇰🇷 KR-IDC-节点1-1B
+      - 🇯🇵 JP-日本-1E
       - 🇯🇵 JP-IDC-NODE1-1E
       - 🇯🇵 JP-日本-1C
-      - 🇹🇼 台湾代理01
-      - 🇺🇸 US-美国-1A
-      - 🇺🇸 US-美国-1C
-      - 🇯🇵 JP-日本-1D
-      - 🇯🇵 JP-日本-1F
-      - 🇰🇷 KR-IDC-节点1-1G
-      - 🇰🇷 KR-IDC-节点2-1D
-      - 🇸🇬 新加坡代理01
-      - 🇺🇸 US-美国-1I
-      - 🇭🇰 香港代理01
-      - 🇯🇵 JP-日本-1I
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1E
-      - 🇰🇷 KR-IDC-节点1-1C
-      - 🇯🇵 JP-日本-1B
-      - 🇯🇵 JP-IDC-NODE1-1B
-      - 🇰🇷 KR-IDC-节点2-1C
-      - 🇺🇸 US-美国-1G
-      - 🇺🇸 US-美国-1H
-      - PC端如无法使用请点-TUN-视频体验
-      - 🇯🇵 JP-日本-1E
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1B
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇺🇸 US-美国-1B
-      - 🇯🇵 JP-IDC-NODE1-1D
-      - 🇰🇷 KR-IDC-节点1-1D
-      - 🇰🇷 KR-IDC-节点1-1F
-      - 🇺🇸 US-美国-1F
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点1-1H
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
-      - 🇰🇷 KR-IDC-节点2-1G
-      - 🇯🇵 JP-IDC-NODE1-1G
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-      - 🇯🇵 JP-日本-1H
-      - 🇺🇸 US-美国-1D
-      - 🇯🇵 JP-IDC-NODE1-1C
-      - 🇰🇷 KR-IDC-节点2-1F
       - 🇯🇵 JP-IDC-NODE1-1F
+      - 🇰🇷 KR-IDC-节点1-1A
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1I
+      - 🇰🇷 KR-IDC-节点1-1B
+      - PC端如无法使用请点-TUN-视频体验
+      - 🇯🇵 JP-IDC-NODE1-1C
+      - 🇺🇸 US-美国-1E
+      - 🇺🇸 US-美国-1G
+      - 🇰🇷 KR-IDC-节点2-1G
+      - 🇰🇷 KR-IDC-节点1-1D
+      - 🇺🇸 US-美国-1D
+      - 🇰🇷 KR-IDC-节点1-1F
+      - 🇰🇷 KR-IDC-节点1-1H
+      - 🇯🇵 JP-IDC-NODE1-1B
+      - 🇸🇬 新加坡代理01
+      - 🇰🇷 KR-IDC-节点1-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-日本-1G
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1F
+      - 🇰🇷 KR-IDC-节点2-1A
+      - 🇰🇷 KR-IDC-节点2-1B
+      - 🇺🇸 US-美国-1C
+      - 🇯🇵 JP-日本-1B
+      - 🇰🇷 KR-IDC-节点2-1D
+      - 🇰🇷 KR-IDC-节点2-1F
+      - 🇰🇷 KR-IDC-节点2-1C
+      - 🇺🇸 US-美国-1A
+      - 🇯🇵 JP-日本-1F
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁
       - 🇰🇷 KR-IDC-节点2-1H
+      - 🇰🇷 KR-IDC-节点1-1G
+      - 🇯🇵 JP-IDC-NODE1-1G
+      - 🇺🇸 US-美国-1B
+      - 🇺🇸 US-美国-1H
+      - 🇰🇷 KR-IDC-节点2-1E
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 JP-IDC-NODE1-1A
+      - 🇭🇰 香港代理01
+      - 🇯🇵 JP-IDC-NODE1-1D
+      - 🇯🇵 JP-日本-1A
+      - 🇯🇵 JP-日本-1H
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁
+      - 🇺🇸 US-美国-1I
+      - 🇯🇵 JP-日本-1D
+      - 🇰🇷 KR-IDC-节点1-1C
+      - 🇹🇼 台湾代理01
+      - 🇯🇵 JP-IDC-NODE1-1H
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
